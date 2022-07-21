@@ -1,0 +1,48 @@
+body{
+    background-color: rgb(177, 177, 177);
+    font-family:cursive;
+}
+
+/*
+section{
+    font-family: Arial, Helvetica, sans-serif;
+}
+*/
+
+#orange{
+    background-color: rgba(255, 255, 255, 0.4);
+    color: white;
+    /* border: 2px solid black;*/
+    border-style: dotted;
+    border-width: 10px;
+    border-color: blue;
+}
+
+#dgblue{
+    background-color: dodgerblue;
+}
+
+#mdsgreen{
+    background-color: mediumseagreen;
+}
+
+#gr{
+    background-color: gray;
+}
+
+#slblue{
+    background-color: slateblue;
+}
+
+#vl{
+    background-color: violet;
+}
+
+#lg{
+    background-color: lightgray;
+}
+
+#formulario{
+    background-color: white;
+    text-align: center;
+}
