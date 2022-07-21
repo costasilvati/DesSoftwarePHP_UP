@@ -1,0 +1,47 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: lightgray;
+}
+
+.principal{
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    display: flex;
+}
+
+section{
+    background-color: white;
+    border-radius: 10px;
+    width: 100%;
+    padding: 1.75rem;
+    max-width: 45rem;
+    box-sizing: border-box;
+    margin-bottom: 1rem;
+    display: flex;
+    flex-direction: column;
+}
+
+input{
+    border:none;
+    margin-top: 2rem;
+    text-align: center;
+    padding: 1.5%;
+    border-bottom: 0.1rem solid;
+    height: 3.25rem;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.botao{
+    border-radius: 7px;
+    margin-top: 2rem;
+    padding: 3%;
+    font-size: 100%;
+    background-color: #C3A29E;
+    border:none;
+}
+
+.sucesso{
+    text-align: center;
+}

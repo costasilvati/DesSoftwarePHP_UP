@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/estilo.css">
+    <title>Aula 4 - Formulários</title>
+</head>
+<body>
+    <a href="#formulario">Ver formulário</a>
+    <section id="colorcss">
+        <h1>Cores CSS</h1>
+        <h2 style="background-color: tomato;">Tomato</h2>
+        <h2 id="orange">Orange</h2>
+        <h2 id="dgblue">DodgerBlue</h2>
+        <h2 id="mdsgreen">MediumSeaGreen</h2>
+        <h2 id="gr">Gray</h2>
+        <h2 id="slblue">SlateBlue</h2>
+        <h2 id="vl">Violet</h2>
+        <h2 id="lg">LightGray</h2>
+    </section>
+    <section id="formulario">
+        <form action="#">
+            <label for="nome">Nome Completo</label>
+            <input type="text" placeholder="Nome" name="nome" maxlength="150" required>
+            <label for="senha">Senha</label>
+            <input type="password" placeholder="Senha" name="senha">
+            <br>
+            <textarea rows="10" cols="80"></textarea>
+            <br>
+            <label for="genero">Gênero</label>
+            <input type="radio" value="M" name="genero"/> Masculino 
+            <input type="radio" value="F" name="genero" checked/> Feminino
+            <br>
+            <label>Console Favorito</label>
+            <br>
+            <input type="checkbox" value="1"/> PlayStation
+            <input type="checkbox" value="2"/> XBox
+            <input type="checkbox" value="3"/> Desktop
+            <br>
+            <label for="sele">Dia da semana favorito</label>
+            <select name="sele">
+                <option>Segunda-feira</option>
+                <option>Terça-feira</option>
+                <option>Quarta-feira</option>
+                <option>Quinta-feira</option>
+                <option>Sexta-feira</option>
+                <option>Sábado</option>
+                <option>Domingo</option>
+            </select>
+        </form>
+    </section>
+</body>
+</html>
