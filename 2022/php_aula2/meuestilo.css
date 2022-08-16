@@ -1,0 +1,16 @@
+/*
+Seletor de elemento
+*/
+
+h2{
+    color: red;
+}
+/* Seletor de classe */
+.bonito{
+    font-family: fantasy;
+}
+
+/* Seletor de ID */
+#titulo{
+    background-color: aqua;
+}
