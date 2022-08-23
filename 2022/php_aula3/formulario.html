@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="base.css">
+    <title>Cadastro</title>
+</head>
+<body>
+    <div class="titulo">
+       <h1>Cadastro de Cliente</h1>
+    </div>
+    <div class="container">
+        <form action="#" method="get">
+            <label for="nome">Nome</label>
+            <input type="text" name="nome" 
+            placeholder="Nome completo">
+            <p></p>
+            <label for="senha">Senha</label>
+            <input type="password" name="senha">
+            <p></p>
+            <p>Matérias favoritas</p>
+            <label for="php">Des. Software com PHP</label>
+            <input type="checkbox" name="php" id="1">
+            <label for="bd">Banco de Dados</label>
+            <input type="checkbox" name="bd" id="2">
+            <label for="alg">Algoritmos</label>
+            <input type="checkbox" name="alg" id="3">
+            <label for="ps">Pesquisa & Sociedade</label>
+            <input type="checkbox" name="ps" id="4">
+            <label for="aps">Análise & Projeto de Sistemas</label>
+            <input type="checkbox" name="aps" id="5">
+            <p></p>
+            <p>Tem tempo para estudo fora de sala?</p>
+            <label>Sim</label>
+            <input type="radio" name="estuda">
+            <label>Não</label>
+            <input type="radio" name="estuda">
+            <p></p>
+            <p>Matriculado no Período: </p>
+            <select name="periodo" id="hr">
+                <option value="M">Matutino</option>
+                <option value="T">Vespertino</option>
+                <option value="N" selected>Noturno</option>
+            </select>
+            <p></p>
+            <label for="texto">Mensagem</label>
+            <textarea name="texto" 
+             cols="30" rows="10" 
+             placeholder="Deixe sua mensagem aqui...">
+            </textarea>
+            <p></p>
+            <input type="button" value="Salvar">
+        </form>
+    </div>
+</body>
+</html>

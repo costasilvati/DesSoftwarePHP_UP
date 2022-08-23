@@ -1,0 +1,32 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #6D6875;
+}
+/* Seletor de elementos */
+p{
+    text-align: center;
+}
+/* Seletor de classe */
+.titulo{
+    text-align: center;
+    background-color: #FFCDB2;
+    margin: 5%;
+    height: 90px;
+    padding: 7%;
+    border-radius: 10px;
+}
+.container{
+    /*display: inline;*/
+    border: 2px;
+    border-style: ridge;
+    margin: 5%;
+    padding: 3%;
+}
+
+
+
+
+
+
+
+
