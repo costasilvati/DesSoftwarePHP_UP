@@ -1,0 +1,16 @@
+CREATE TABLE animal (
+    id INTEGER PRIMARY KEY AUTO INCREMENT NOT NULL,
+    tipo INTEGER NOT NULL,
+    nome VARCHAR(255) NOT NULL,
+    tutoR VARCHAR(255) NOT NULL,
+    porte VARCHAR(255),
+    peso DECIMAL(2) NOT NULL,
+    genero VARCHAR(1) NOT NULL,
+    nascimento DATE NOT NULL
+);
+
+CREATE TABLE login (
+    id INTEGER PRIMARY KEY AUTO_INCREMENT,
+    email VARCHAR(255),
+    senha VARCHAR(255)
+    );
